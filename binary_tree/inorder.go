@@ -11,7 +11,6 @@ package binary_tree
 func inorderTraversal(root *TreeNode) []int {
 	var answer []int
 	return dfs(root, answer)
-
 }
 
 func dfs(root *TreeNode, list []int) []int {
